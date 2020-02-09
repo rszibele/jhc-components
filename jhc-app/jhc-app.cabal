@@ -13,6 +13,7 @@ executable jhc
   main-is:          Main.hs
   hs-source-dirs:   src
   default-language: Haskell98
+  ghc-options:      -rtsopts
 
   other-modules:
     Interactive
